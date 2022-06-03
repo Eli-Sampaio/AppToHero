@@ -10,7 +10,6 @@ type
   TFormTemplate = class(TForm)
     PnlTemplate: TPanel;
     PnlTop: TPanel;
-    PnlCentro: TPanel;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }

@@ -29,8 +29,6 @@ object FormTemplate: TFormTemplate
       Width = 1124
       Height = 494
       Align = alClient
-      BevelOuter = bvNone
-      ParentBackground = False
       TabOrder = 0
       ExplicitLeft = 472
       ExplicitTop = 224
@@ -45,7 +43,6 @@ object FormTemplate: TFormTemplate
     Height = 113
     Align = alTop
     BevelOuter = bvNone
-    ParentBackground = False
     TabOrder = 1
   end
 end
