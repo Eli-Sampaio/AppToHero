@@ -1,0 +1,18 @@
+unit DelphiToHero.View.Routers;
+
+interface
+
+type
+  TRouters = class
+    private
+    public
+      constructor Create;
+      destructor Destroy; Override;
+  end;
+
+var
+  Router: TRouters;
+
+implementation
+
+end.

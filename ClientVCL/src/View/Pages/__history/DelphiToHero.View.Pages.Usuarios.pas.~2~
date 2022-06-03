@@ -1,0 +1,36 @@
+unit DelphiToHero.View.Pages.Usuarios;
+
+interface
+
+uses
+  Winapi.Windows,
+  Winapi.Messages,
+  System.SysUtils,
+  System.Variants,
+  System.Classes,
+  Vcl.Graphics,
+  Vcl.Controls,
+  Vcl.Forms,
+  Vcl.Dialogs,
+  Vcl.StdCtrls,
+  Vcl.ExtCtrls,
+  Router4D.Interfaces;
+
+type
+  TFormPageUsuarios = class(TForm)
+    Panel1: TPanel;
+    LblUsuarios: TLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FormPageUsuarios: TFormPageUsuarios;
+
+implementation
+
+{$R *.dfm}
+
+end.

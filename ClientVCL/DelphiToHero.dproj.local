@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/05/31 09:40:41.000.723,=C:\Users\eliza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/01 14:34:40.000.295,=C:\Users\eliza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/01 14:36:23.000.187,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\DelphiToHero.View.Main.dfm=C:\Users\eliza\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/06/01 14:36:23.000.187,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\DelphiToHero.View.Main.pas=C:\Users\eliza\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/01 14:37:57.000.392,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\DelphiToHero.dproj=C:\Users\eliza\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2022/06/01 16:16:03.000.140,=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit2.pas</Transaction>
+    <Transaction>2022/06/01 16:16:16.000.362,=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/01 16:17:39.000.397,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\Styles\DelphiToHero.View.Styles.Colors.pas=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/01 16:55:42.000.222,=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/01 16:56:41.000.343,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Principal.pas=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/01 16:56:41.000.343,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Principal.dfm=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.dfm</Transaction>
+    <Transaction>2022/06/02 09:13:54.000.360,=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 09:14:41.000.280,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 09:14:41.000.280,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Usuarios.dfm=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.dfm</Transaction>
+    <Transaction>2022/06/02 10:32:51.000.870,=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 10:34:13.000.965,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\Routers\DelphiToHero.View.Routers.pas=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 10:46:06.000.578,=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 10:46:17.000.768,=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 10:53:05.000.202,=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 10:53:41.000.186,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\Routers\DelphiToHero.View.Routers.pas</Transaction>
+    <Transaction>2022/06/02 11:05:43.000.148,=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 11:08:27.000.434,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas</Transaction>
+    <Transaction>2022/06/02 11:08:27.000.434,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.dfm=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Usuarios.dfm</Transaction>
+    <Transaction>2022/06/02 15:57:01.000.336,=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 16:58:44.000.536,=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas</Transaction>
+    <Transaction>2022/06/02 17:00:16.000.680,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.dfm=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Form.Template.dfm</Transaction>
+    <Transaction>2022/06/02 17:00:16.000.680,C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\Unit1.pas=C:\_Eli\Project\Delphi\DelphiToHeroLive\ClientVCL\src\View\Pages\DelphiToHero.View.Pages.Form.Template.pas</Transaction>
+  </Transactions>
+</BorlandProject>
