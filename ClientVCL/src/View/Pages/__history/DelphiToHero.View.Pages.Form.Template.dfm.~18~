@@ -50,14 +50,6 @@ object FormPageTemplate: TFormPageTemplate
         ExplicitTop = 40
         ExplicitWidth = 185
         ExplicitHeight = 41
-        object Label1: TLabel
-          Left = 0
-          Top = 0
-          Width = 81
-          Height = 113
-          Align = alLeft
-          Caption = 'Label1'
-        end
       end
     end
     object PnlClient: TPanel

@@ -1,8 +1,8 @@
-object FormPageTemplate: TFormPageTemplate
+object FormTemplate: TFormTemplate
   Left = 0
   Top = 0
   BorderStyle = bsNone
-  Caption = 'FormPageTemplate'
+  Caption = 'FormTemplate'
   ClientHeight = 607
   ClientWidth = 1124
   Color = clBtnFace
@@ -33,32 +33,8 @@ object FormPageTemplate: TFormPageTemplate
       Height = 113
       Align = alTop
       BevelOuter = bvNone
-      Padding.Left = 100
-      Padding.Right = 100
       ParentBackground = False
       TabOrder = 0
-      object Panel1: TPanel
-        Left = 100
-        Top = 0
-        Width = 924
-        Height = 113
-        Align = alClient
-        BevelOuter = bvNone
-        ParentBackground = False
-        TabOrder = 0
-        ExplicitLeft = 472
-        ExplicitTop = 40
-        ExplicitWidth = 185
-        ExplicitHeight = 41
-        object Label1: TLabel
-          Left = 0
-          Top = 0
-          Width = 81
-          Height = 113
-          Align = alLeft
-          Caption = 'Label1'
-        end
-      end
     end
     object PnlClient: TPanel
       Left = 0

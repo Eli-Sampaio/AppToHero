@@ -2,6 +2,9 @@ unit DelphiToHero.View.Routers;
 
 interface
 
+uses
+  DelphiToHero.View.Pages.Form.Usuarios, DelphiToHero.View.Pages.Usuarios;
+
 type
   TRouters = class
     private

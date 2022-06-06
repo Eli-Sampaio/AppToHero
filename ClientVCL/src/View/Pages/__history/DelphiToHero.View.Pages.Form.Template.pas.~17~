@@ -13,15 +13,13 @@ uses
   Vcl.Forms,
   Vcl.Dialogs,
   Vcl.ExtCtrls,
-  Router4D.Interfaces, Vcl.StdCtrls;
+  Router4D.Interfaces;
 
 type
   TFormPageTemplate = class(TForm, iRouter4DComponent)
     PnlTemplate: TPanel;
     PnlTop: TPanel;
     PnlClient: TPanel;
-    Panel1: TPanel;
-    Label1: TLabel;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }

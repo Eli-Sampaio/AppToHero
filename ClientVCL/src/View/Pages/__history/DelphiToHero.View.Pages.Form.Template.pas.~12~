@@ -13,27 +13,23 @@ uses
   Vcl.Forms,
   Vcl.Dialogs,
   Vcl.ExtCtrls,
-  Router4D.Interfaces, Vcl.StdCtrls;
+  Router4D.Interfaces;
 
 type
-  TFormPageTemplate = class(TForm, iRouter4DComponent)
+  TFormTemplate = class(TForm, iRouter4DComponent)
     PnlTemplate: TPanel;
     PnlTop: TPanel;
     PnlClient: TPanel;
-    Panel1: TPanel;
-    Label1: TLabel;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
     procedure ApplyStyle;
   public
     { Public declarations }
-    function Render: TForm;
-    procedure UnRender;
   end;
 
 var
-  FormPageTemplate: TFormPageTemplate;
+  FormTemplate: TFormTemplate;
 
 implementation
 
@@ -43,26 +39,16 @@ uses DelphiToHero.View.Styles.Colors;
 
 { TFormTemplate }
 
-procedure TFormPageTemplate.ApplyStyle;
+procedure TFormTemplate.ApplyStyle;
 begin
   PnlTemplate.Color := COLOR_BACKGROUND;
-  PnlTop.Color := COLor_C1;
+  PnlTop.Color := COLOR_c;
   PnlClient.Color := COLOR_BACKGROUND;
 end;
 
-procedure TFormPageTemplate.FormCreate(Sender: TObject);
+procedure TFormTemplate.FormCreate(Sender: TObject);
 begin
   ApplyStyle;
-end;
-
-function TFormPageTemplate.Render: TForm;
-begin
-  Result := Self;
-end;
-
-procedure TFormPageTemplate.UnRender;
-begin
-  //
 end;
 
 end.

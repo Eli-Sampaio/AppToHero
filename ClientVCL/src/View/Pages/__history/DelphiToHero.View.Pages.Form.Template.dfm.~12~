@@ -17,32 +17,36 @@ object FormTemplate: TFormTemplate
   TextHeight = 13
   object PnlTemplate: TPanel
     Left = 0
-    Top = 113
+    Top = 0
     Width = 1124
-    Height = 494
+    Height = 607
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
-    object PnlCentro: TPanel
+    ExplicitTop = 113
+    ExplicitHeight = 494
+    object PnlTop: TPanel
       Left = 0
       Top = 0
       Width = 1124
+      Height = 113
+      Align = alTop
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 0
+    end
+    object Panel1: TPanel
+      Left = 0
+      Top = 113
+      Width = 1124
       Height = 494
       Align = alClient
-      TabOrder = 0
+      BevelOuter = bvNone
+      TabOrder = 1
       ExplicitLeft = 472
-      ExplicitTop = 224
+      ExplicitTop = 280
       ExplicitWidth = 185
       ExplicitHeight = 41
     end
-  end
-  object PnlTop: TPanel
-    Left = 0
-    Top = 0
-    Width = 1124
-    Height = 113
-    Align = alTop
-    BevelOuter = bvNone
-    TabOrder = 1
   end
 end

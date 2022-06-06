@@ -7,7 +7,7 @@ type
     private
     public
       constructor Create;
-      destructor Destroy; Override;
+      destructor Destroy; override;
   end;
 
 var
@@ -15,11 +15,19 @@ var
 
 implementation
 
+uses
+  Router4D,
+  DelphiToHero.View.Pages.Principal,
+  DelphiToHero.View.Pages.Usuarios;
+
 { TRouters }
 
 constructor TRouters.Create;
 begin
-
+  TRouter4D
+    .Switch
+      .Router('Principal', TFormPagePrincipal)
+      .Router('Usuários', TFormPageUsuarios);
 end;
 
 destructor TRouters.Destroy;

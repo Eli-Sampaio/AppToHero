@@ -7,7 +7,7 @@ uses
   DelphiToHero.View.Pages.Principal in 'src\View\Pages\DelphiToHero.View.Pages.Principal.pas' {FormPagePrincipal},
   DelphiToHero.View.Routers in 'src\View\Routers\DelphiToHero.View.Routers.pas' {/DelphiToHero.View.Pages.Usuarios in 'src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas' {FormPageUsuarios},
   DelphiToHero.View.Pages.Form.Template in 'src\View\Pages\DelphiToHero.View.Pages.Form.Template.pas' {FormPageTemplate},
-  DelphiToHero.View.Pages.Usuarios in 'src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas' {FormPageUsuarios};
+  DelphiToHero.View.Pages.Form.Usuarios in 'src\View\Pages\DelphiToHero.View.Pages.Form.Usuarios.pas' {FormPageUsuarios};
 
 //DelphiToHero.View.Pages.Usuarios in 'src\View\Pages\DelphiToHero.View.Pages.Usuarios.pas' {FormPageUsuarios};
 
@@ -17,5 +17,6 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TFormPrincipal, FormPrincipal);
+  Application.CreateForm(TFormPageUsuarios, FormPageUsuarios);
   Application.Run;
 end.

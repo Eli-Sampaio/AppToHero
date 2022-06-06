@@ -9,6 +9,9 @@ uses
 type
   TFormTemplate = class(TForm)
     PnlTemplate: TPanel;
+    PnlTop: TPanel;
+    Panel1: TPanel;
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
     procedure ApplyStyle;
@@ -30,6 +33,11 @@ uses DelphiToHero.View.Styles.Colors;
 procedure TFormTemplate.ApplyStyle;
 begin
   PnlTemplate.Color := COLOR_BACKGROUND;
+end;
+
+procedure TFormTemplate.FormCreate(Sender: TObject);
+begin
+  ApplyStyle;
 end;
 
 end.

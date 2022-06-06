@@ -10,9 +10,6 @@ const
   color_background_destak = $0084c400;
   font_color = $00322f2d;
 
-  color_c1 = $00fcfaf9;
-  color_c2 = $00e3dac1;
-
   font_h1 = 22;
   font_h2 = 20;
   font_h3 = 18;

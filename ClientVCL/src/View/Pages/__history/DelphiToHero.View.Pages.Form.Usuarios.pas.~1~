@@ -1,13 +1,14 @@
-unit DelphiToHero.View.Pages.Form.Template;
+unit DelphiToHero.View.Pages.Form.Usuarios;
 
 interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, DelphiToHero.View.Pages.Form.Template,
+  Vcl.ExtCtrls;
 
 type
-  TFormTemplate = class(TForm)
+  TFormTemplate1 = class(TFormTemplate)
   private
     { Private declarations }
   public
@@ -15,7 +16,7 @@ type
   end;
 
 var
-  FormTemplate: TFormTemplate;
+  FormTemplate1: TFormTemplate1;
 
 implementation
 
